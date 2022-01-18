@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font-awesome link -->
+    <script src="https://kit.fontawesome.com/b48a77b659.js" crossorigin="anonymous"></script>
+    <!-- font-family oxygen/oxygen-mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <!-- External Css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Neha's Portfolio Website</title>
+    
+  </head>
+  <body>
+    <!-- Nav start -->
+    <nav>
+      <ul class="list">
+        <li>
+          <h1><a href="index.html">
+            <span class="fas fa-code"></span>
+            <span>Neha</span> <span class="fas fa-code"></span></a>
+            
+          </h1>
+        </li>
+        <li><a href="#projects">Projects</a></li>
+        <!-- <li><a href="about.html">About</a></li> -->
+        <li><a href="index.html#contact">Contact</a></li>
+        <li>
+          <a href="https://www.linkedin.com/in/neha-sijaria/" target="_blank">
+          <span class="fab fa-linkedin" aria-hidden="true"></span>
+      <!--   Only Screenreader will be able to read that     -->
+            <span class="sr-only">LinkedIn</span>
+          </a>
+          </li>
+        <li>
+          <a href="https://github.com/NehaSijaria">
+            <span class="fab fa-github-square"></span>
+            <span class="sr-only">Github</span>
+          </a>
+        </li>
+        <li><a href="https://resume.io/r/mPcEbTeq7" target="_blank" class="button">Resume</a></li>
+      </ul>
+      </nav>
+      <!-- Nav ends -->
+    <!-- Intro Section -->
+    <section id="myintro"> 
+      <!-- sice full sentence, thus span is used  -->
+        <p class="name">Hi, my name is <span>Neha.</span></p>
+        <h2>Full Stack Web-developer.</h2>
+        <p>I love to create websites.</p>
+        <p></p>
+      </section>
+      <div class="gradient"></div>
+      <!-- Intro Ends -->
+<!-- Project section -->
+      <div class="section-blue">
+        <section id="projects">
+          
+          <h2>My Work</h2>
+          <article>
+            <div class="text">
+              <h4>Bootcamp Project</h4>
+              <h3>TinyApp</h3>
+              <p class="blackbox">Tiny app is a full stack web application that allows users to shorten long URLs. <a href="https://https://github.com/NehaSijaria/tinyapp">Github</a>.</p>
+              <h4>Technologies used include:</h4>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Express</li>
+                <li>Jquery</li>
+                <li>Node.js</li>
+              </ul>
+            </div>
+            <img src="./img/tinyURL App_Register.png" width="800" height="500" alt="Screenshot of Registration page." />
+          </article>
+          <article class="reverse">
+            <div class="text">
+              <h4>Group Project</h4>
+              <h3>WikiMap</h3>
+              <p class="blackbox">
+                Fully responsive App to create map that can be customized further to user. User can add description/pins/image/title to the maps and registered User can further add favorite/delete maps and can make their contribution.
+                <a href="https://github.com/sowjanyamaisagoni/wikiMap-midterm">Github Link</a>
+              </p>
+              <h4>Technologies used include:</h4>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Node.js</li>
+                <li>Express</li>
+                <li>Bootstrap</li>
+              </ul>
+            </div>
+            <img src="./img/Landing_page.png" width="800" height="500" alt="Wikimap." alt="Screenshot of App Landing page." />
+          </article>
+          <article>
+            <div class="text">
+              <h4>Bootcamp Project</h4>
+              <h3>Interview Scheduler</h3>
+              <p class="blackbox">
+                Interview scheduler is a single page application that enables Users to book,edit,schedule andcancel interviews. 
+                <a href="https://github.com/NehaSijaria/interview_scheduler">Github Link</a>
+              </p>
+              <h4>Technologies used include:</h4>
+              <ul>
+                <li>React</li>
+                <li>Storybook</li>
+                <li>SCSS</li>
+              </ul>
+            </div>
+              <img src="./img/Booked Slot.png" width="800" height="500" alt="Screenshot of Interview slot booking." />
+          </article>
+        </section>
+      </div>
+      <div class="gradient"></div>
+
+          <!-- Contact Me  -->
+          <div class="section-bkcolor">
+          <section  id="contact">
+            <h2>Contact me</h2>
+          <p>I'm always interested in hearing about new exciting opportunities.</p>
+            <p><a href="mailto:nehasijaria@gmail.com" target="_blank" class="button">Email me </a></p>
+          </section>
+        </div>
+        <div class="gradient"></div>
+          <!-- Contact Ends -->
+          <!-- Footer starts -->
+          <footer>
+            <h2>Neha &middot; Web Developer</h2>
+            <ul>
+           <li>
+              <a href="https://www.linkedin.com/in/neha-sijaria/" target="_blank">
+              <span class="fab fa-linkedin" aria-hidden="true"></span>
+          <!--   Only Screenreader will be able to read that     -->
+                <span class="sr-only">LinkedIn</span>
+              </a>
+              </li>
+            <li>
+              <a href="https://github.com/NehaSijaria">
+                <span class="fab fa-github-square"></span>
+          <!--   for screen reader only     -->
+                <span class="sr-only">Github</span>
+              </a>
+           </li>
+            <li>
+              <a href="mailto:nehasijaria@gmail.com" target="_blank">
+              <span class="fas fa-envelope"></span></a>
+            </li>
+          </ul>
+            <p>&copy; 2021 Neha. All rights reserved.
+          </footer>
+          <!-- Footer ends -->
+  </body>
+</html>
